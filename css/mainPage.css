@@ -1,0 +1,172 @@
+*   {
+    padding: 0;
+    margin: 0;
+}
+.our-services   {
+    background: #f4f4f4;
+    background-size: cover;
+    height: 302px;
+}
+.main-wrap  {
+    width: 930px;
+    margin: 0 auto;
+}
+.service    {
+    width: 164px;
+    text-align: center;
+    display: inline-block;
+    padding-right: 60px;
+}
+.service-mod    {
+    padding-right: 0;
+}
+.service-img    {
+    margin-bottom: 28px;
+}
+.service-h3 {
+    font-size: 17px;
+    padding-bottom: 14px;
+}
+.service-p  {
+    font-size: 11px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.service-a  {
+    text-decoration: none;
+}
+.portfolio  {
+    background: #2e3e4f;
+    background-size: cover;
+    height: 518px;
+}
+.portfolio-h3   {
+    font-size: 30px;
+    color: #f98561;
+    display: inline-block;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.pf-works   {
+    background: #2190c1;
+    color: white;
+    float: right;
+    margin-top: 50px;
+    border: 0px;
+    padding: 8px;
+    border-radius: 5px;
+}
+.gallery    {
+    margin-bottom: 20px;
+}
+.galleryItem {
+    display: inline-block;
+    margin-right: 36px;
+    background: white;
+    height: 220px;
+    width: 282px;
+}
+.gallery-href   {
+    text-decoration: none;
+    position: relative;
+}
+.gallery-href::before    {
+    content: url("../img/camera-icon.png");
+    position: absolute;
+    left: 42%;
+    top: -687%;
+}
+.gallery-href::after {
+    content: url("../img/pf-details.png");
+    position: absolute;
+    top: -697%;
+    left: 23%;
+    display: none;
+}
+.galleryItem-mod    {
+    margin-right: 0px;
+}
+.galleryItem:hover  .gallery-href::before {
+    display: none;
+}
+.galleryItem:hover  .gallery-href::after {
+    display: block;
+}
+.pf-img {
+    margin: 10px;
+}
+.pf-content {
+    width: 280px;
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 40px;
+}
+.pf-content-mod {
+    padding-right: 0px;
+}
+.pf-h4  {
+    color: #f98561;
+    font-size: 17px;
+    margin-bottom: 13px;
+}
+.pf-p   {
+    color: white;
+    font-size: 11px;
+}
+.offer  {
+    background: #f4f4f4;
+    background-size: cover;
+    height: 323px;
+}
+.offer-wrap  {
+    width: 930px;
+    margin: 0 auto;
+    padding-left: 45px;
+    padding-right: 45px;
+    border-bottom: 1px solid #d9d9d9;
+}
+.offer-h2   {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    color: #2190c1;
+    margin-bottom: 25px;
+}
+.under-h2-p {
+    font-size: 12px;
+    margin-left: 180px;
+    margin-right: 180px;
+    text-align: center;
+    padding-bottom: 45px;
+}
+.ww-offer    {
+    display: inline-block;
+    width: 180px;
+    vertical-align: top;
+    margin-right: 60px;
+    margin-bottom: 30px;
+}
+.ww-offer-mod   {
+    margin-right: 0px;
+}
+.ww-offer-h4    {
+    color: #2b99cc;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+.ww-offer-p {
+    font-size: 11px;
+}
+.offer-button   {
+    float: right;
+    margin-right: 15px;
+    background: #2190c1;
+    border: 0;
+    color: white;
+    border-radius: 2px;
+    font-size: 11px;
+    padding: 2px;
+    margin-top: 10px;
+}
+
