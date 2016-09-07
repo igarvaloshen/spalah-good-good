@@ -8,13 +8,13 @@
     background-repeat: no-repeat;
     height: 491px;
     text-align: center;
-    position: relative;
 }
 .slider-h1  {
     font-size: 61px;
     color: #cccece;
     padding-top: 110px;
     padding-bottom: 30px;
+    font-family: bebas_neue_regularregular, sans-serif;
 }
 .slider-p   {
     font-size: 14px;
@@ -22,6 +22,7 @@
     padding-bottom: 50px;
     margin-left: 190px;
     margin-right: 190px;
+    font-family: ubunturegular, sans-serif;
 }
 .slider-href   {
     text-transform: uppercase;
@@ -34,26 +35,30 @@
     padding-left: 50px;
     padding-right: 50px;
     border-radius: 5px;
+    font-family: ubuntu_condensedregular, sans-serif;
 }
 .slider-li  {
     height: 420px;
 }
-.slider::after  {
+.our-services::before  {
     content: "Our Services";
     background: #2190c1;
     height: 25px;
-    width: 121px;
+    width: 120px;
     text-align: center;
     color: white;
     position: absolute;
     padding-top: 5px;
     border-radius: 4px;
-    top: 97%;
-    left: 46%;
+    top: -4%;
+    left: 50%;
+    margin-left: -60px;
+    font-family: bebas_neue_regularregular, sans-serif;
 }
 .our-services   {
     background: #f4f4f4;
     background-size: cover;
+    position: relative;
 }
 .clearfix::after {
     content: "";
@@ -68,12 +73,13 @@
     width: 164px;
     text-align: center;
     display: inline-block;
-    padding-right: 60px;
+    padding-right: 83px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 .service-mod    {
     padding-right: 0;
+    float: right;
 }
 .service-img    {
     margin-bottom: 28px;
@@ -81,14 +87,19 @@
 .service-h3 {
     font-size: 17px;
     padding-bottom: 14px;
+    color: #515862;
+    font-family: bree_serifregular, sans-serif;
 }
 .service-p  {
     font-size: 11px;
     margin-left: 10px;
     margin-right: 10px;
+    color: #515862;
+    font-family: ubunturegular, sans-serif;
 }
 .service-a  {
     text-decoration: none;
+    font-family: ubuntubold, sans-serif;
 }
 .portfolio  {
     background: #2e3e4f;
@@ -101,6 +112,7 @@
     display: inline-block;
     padding-top: 50px;
     padding-bottom: 50px;
+    font-family: bree_serifregular, sans-serif;
 }
 .pf-works   {
     background: #2190c1;
@@ -116,7 +128,7 @@
 }
 .galleryItem {
     display: inline-block;
-    margin-right: 34px;
+    margin-right: 38px;
     background: white;
     height: 220px;
     width: 282px;
@@ -155,7 +167,7 @@
     width: 280px;
     display: inline-block;
     vertical-align: top;
-    padding-right: 35px;
+    padding-right: 40px;
 }
 .pf-content-mod {
     padding-right: 0px;
@@ -165,10 +177,12 @@
     color: #f98561;
     font-size: 17px;
     margin-bottom: 13px;
+    font-family: bree_serifregular, sans-serif;
 }
 .pf-p   {
     color: white;
     font-size: 11px;
+    font-family: ubunturegular, sans-serif;
 }
 .offer  {
     background: #f4f4f4;
@@ -188,6 +202,7 @@
     text-align: center;
     color: #2190c1;
     margin-bottom: 25px;
+    font-family: bebas_neue_regularregular, sans-serif;
 }
 .under-h2-p {
     font-size: 12px;
@@ -195,24 +210,28 @@
     margin-right: 180px;
     text-align: center;
     padding-bottom: 45px;
+    font-family: ubunturegular, sans-serif;
 }
 .ww-offer    {
     display: inline-block;
     width: 180px;
     vertical-align: top;
-    margin-right: 60px;
-    margin-bottom: 30px;
+    padding-right: 61px;
+    padding-bottom: 30px;
 }
 .ww-offer-mod   {
-    margin-right: 0px;
+    padding-right: 0px;
+    float: right;
 }
 .ww-offer-h4    {
     color: #2b99cc;
     font-size: 17px;
     margin-bottom: 15px;
+    font-family: bree_serifregular, sans-serif;
 }
 .ww-offer-p {
     font-size: 11px;
+    font-family: ubunturegular, sans-serif;
 }
 .offer-button   {
     float: right;
@@ -224,5 +243,6 @@
     font-size: 11px;
     padding: 2px;
     margin-top: 10px;
+    font-family: ubunturegular, sans-serif;
 }
 
