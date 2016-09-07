@@ -10,3 +10,6 @@ $( function() {
 
 // This will create a single gallery from all elements that have class "gallery-item"
 
+$(document).ready(function(){
+    $('.bxslider').bxSlider();
+});
