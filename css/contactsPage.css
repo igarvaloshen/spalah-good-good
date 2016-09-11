@@ -1,0 +1,156 @@
+.night-city {
+    background-image: url("../img/night-city-contacts.jpg");
+    height: 295px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.night-city-h1  {
+    font-family: bebas_neue_regularregular, sans-serif;
+    font-size: 80px;
+    color: #cccece;
+    text-align: center;
+    padding-top: 110px;
+}
+.contacts-main  {
+    background: #f4f4f4;
+
+}
+.touch-h3   {
+    font-size: 50px;
+    font-family: bebas_neue_regularregular, sans-serif;
+    color: #2190c1;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.touch-p    {
+    font-size: 13px;
+    font-family: ubunturegular, sans-serif;
+    color: #5c626c;
+    text-align: center;
+    line-height: 20px;
+    padding-bottom: 80px;
+}
+.form-block {
+    display: inline-block;
+    width: 430px;
+    border-right: 1px solid #e1e1e1;
+}
+.star   {
+    color: red;
+}
+.form-p {
+    font-size: 13px;
+    font-family: ubunturegular, sans-serif;
+    color: #5c626c;
+    padding-bottom: 30px;
+}
+.input-item {
+    font-size: 13px;
+    font-family: ubunturegular, sans-serif;
+    color: #5c626c;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.form-input {
+    height: 33px;
+    width: 360px;
+    margin-bottom: 30px;
+}
+.form-ta    {
+    width: 360px;
+    height: 272px;
+    resize: none;
+    margin-bottom: 30px;
+}
+.code-p {
+    font-size: 13px;
+    font-family: ubunturegular, sans-serif;
+    color: #5c626c;
+}
+.form-code  {
+    float: left;
+    margin-right: 14px;
+}
+.enter-code {
+    width: 145px;
+    height: 25px;
+    padding-bottom: 1px;
+}
+.form-button    {
+    display: inherit;
+    float: right;
+    margin-top: 16px;
+    margin-right: 67px;
+    padding-top: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 10px;
+    border: 0px;
+    background: #2190c1;
+    color: white;
+    border-radius: 4px;
+    font-family: ubuntu_condensedregular, sans-serif;
+    margin-bottom: 50px;
+}
+.contact-media  {
+    width: 428px;
+    margin-left: 60px;
+    display: inline-block;
+    padding-bottom: 40px;
+    float: right;
+}
+.icons  {
+    height: 151px;
+    width: 41px;
+    background-image: url("../img/contact-media.png");
+    text-align: center;
+    display: inline-block;
+    float: left;
+}
+.icons-img  {
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+.icon-content   {
+    display: inline-block;
+    width: 185px;
+    padding-left: 10px;
+}
+.icon-content-mod   {
+    padding-top: 6px;
+}
+.color  {
+    color: #48a5c9;
+}
+.contacts-media-p   {
+    color: #93928c;
+    font-family: ubunturegular, sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    padding-top: 7px;
+    padding-bottom: 4px;
+
+}
+.icon-content-href  {
+    font-family: ubunturegular, sans-serif;
+    font-size: 13px;
+    color: #48a5c9;
+}
+.google-map {
+    display: inline-block;
+    border: 5px solid white;
+    margin-left: -50px;
+    margin-top: 85px;
+    margin-bottom: 50px;
+}
+.social-h3  {
+    font-family: bebas_neue_regularregular, sans-serif;
+    font-size: 35px;
+    color: #515862;
+    padding-bottom: 28px;
+}
+.social-img {
+    margin-right: 2px;
+    margin-bottom: 18px;
+}

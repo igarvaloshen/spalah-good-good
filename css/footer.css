@@ -1,0 +1,108 @@
+footer  {
+    background: #2e3e4f;
+    background-size: cover;
+}
+.footer-block   {
+    width: 221px;
+    display: inline-block;
+    vertical-align: top;
+    padding-bottom: 40px;
+    padding-right: 30px;
+}
+.footer-block-mod   {
+    float:right;
+    width: 138px;
+    padding-right: 0px;
+}
+.newsletter {
+    width: 244px;
+}
+.footer-block-h3    {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #f98561;
+    font-family: bebas_neue_regularregular, sans-serif;
+    padding-bottom: 25px;
+    padding-top: 45px;
+}
+.tw-news   {
+    border-bottom: 1px solid #556270;
+}
+.news-mod   {
+    border-bottom: 0px;
+}
+.footer-p   {
+    color: #a3afb2;
+    font-family: ubunturegular, sans-serif;
+    font-size: 12px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+.footer-href    {
+    color: #25779e;
+    text-decoration: none;
+    font-family: ubunturegular, sans-serif;
+    font-size: 12px;
+}
+.nw-news    {
+    font-family: ubunturegular, sans-serif;
+    font-size: 12px;
+    border-bottom: 1px solid #556270;
+    width: 244px;
+    color: #a3afb2;
+    padding-top: 4px;
+    line-height: 1.5;
+    padding-bottom: 6px;
+}
+.email  {
+    color: #247aa3;
+    font-size: 13px;
+    font-family: ubunturegular, sans-serif;
+    padding-bottom: 12px;
+}
+.mail-input {
+    width: 244px;
+    height: 28px;
+    border: 0px;
+    border-radius: 3px;
+    font-family: ubunturegular, sans-serif;
+}
+.mail-button    {
+    color: #f0f8fb;
+    background: #2190c1;
+    border: 0px;
+    float: right;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.r-projects::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.r-p-img    {
+    float: left;
+    margin-top: 4px;
+    margin-right: 4px;
+}
+.contacts-img   {
+    float: left;
+    margin-right: 4px;
+}
+.contacts-p {
+    font-family: ubunturegular, sans-serif;
+    font-size: 12px;
+    color: #a3afb2;
+}
+.contacts   {
+    padding-bottom: 20px;
+}
+.contacts::after  {
+    content: "";
+    display: table;
+    clear: both;
+}

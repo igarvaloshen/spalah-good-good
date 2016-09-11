@@ -1,0 +1,120 @@
+*   {
+    padding: 0;
+    margin: 0;
+}
+header  {
+    background: white;
+    background-size: cover;
+    height: 81px;
+}
+.main-wrap {
+    width: 930px;
+    margin: 0 auto;
+}
+.logo   {
+    display: inline-block;
+    padding-top: 32px;
+    vertical-align: middle;
+}
+.circle {
+    width: 21px;
+    height: 21px;
+    background: #f98561;
+    display: inline-block;
+    border-radius: 10px;
+}
+.square {
+    width: 21px;
+    height: 21px;
+    background: #23afc8;
+    display: inline-block;
+}
+.header-h2  {
+    display: inline-block;
+    color: #606060;
+    font-size: 20px;
+    font-family: bree_serifregular, sans-serif;
+    padding-right: 70px;
+}
+.menu   {
+    display: inline-block;
+    padding-top: 32px;
+    vertical-align: middle;
+}
+li  {
+    display: inline-block;
+}
+.menu-href  {
+    text-decoration: none;
+    padding-top: 36px;
+    padding-bottom: 15px;
+    padding-left: 18px;
+    padding-right: 18px;
+    position: relative;
+    color: #515862;
+    font-family: ubunturegular, sans-serif;
+    font-size: 14px;
+    margin-right: 15px;
+}
+.menu-href:hover    {
+    background: #23afc8;
+    border-bottom: 13px solid #0080b7;
+    color: #c5f4ff;
+}
+.menu-href::after {
+    content: '';
+    position: absolute;
+    left: 50px;
+    margin-left: -22px;
+    bottom: 0px;
+    border: 10px solid transparent;
+    border-bottom: 10px solid #0080b7;
+    display: none;
+}
+.menu-blog  {
+    font-family: ubunturegular, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+    background: #f98561;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 3px;
+
+}
+.menu-href:hover:after  {
+    display: block;
+}
+.menu-pf::after {
+    margin-left: -15px;
+}
+.menu-contacts::after {
+    margin-left: -14px;
+}
+.menu-blog::after {
+    margin-left: -27px;
+}
+.h-search   {
+    display: inline-block;
+    float: right;
+}
+.p-search   {
+    font-family: ubunturegular, sans-serif;
+    font-size: 14px;
+    color: #515862;
+    padding-top: 36px;
+    vertical-align: middle;
+    float: left;
+}
+.h-a-href   {
+    float: right;
+    background-image: url("../img/header-search.png");
+    background-repeat: no-repeat;
+    width: 36px;
+    height: 36px;
+    margin-top: 26px;
+    margin-left: 7px;
+}
+
