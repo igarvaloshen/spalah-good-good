@@ -1,0 +1,179 @@
+.night-city {
+    background-image: url("../img/night-city-contacts.jpg");
+    height: 295px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.night-city-h1  {
+    font-family: bebas_neue_regularregular, sans-serif;
+    font-size: 80px;
+    color: #cccece;
+    text-align: center;
+    padding-top: 110px;
+}
+.waw    {
+    background: #f4f4f4;
+    background-size: cover;
+}
+.waw-h3 {
+    color: #2190c1;
+    font-size: 50px;
+    font-family: bebas_neue_regularregular, sans-serif;
+    text-align: center;
+    padding-top: 30px;
+}
+.waw-p {
+    color: #515862;
+    font-family: ubuntubold, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.waw-p-mod  {
+    font-family: ubunturegular, sans-serif;
+}
+.waw-h2 {
+    text-transform: uppercase;
+    color: #515862;
+    font-family: bebasregular, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 45px;
+    letter-spacing: 7px;
+}
+.apps   {
+    background: #f4f4f4;
+    background-size: cover;
+}
+.apps-wrap  {
+    margin: 0 auto;
+    border-top: 1px solid #a5a5a5;
+    border-bottom: 3px solid #a5a5a5;
+}
+.apps-service   {
+    display: inline-block;
+    width: 220px;
+    text-align: center;
+    border-left: 1px solid #a5a5a5;
+    vertical-align: top;
+    padding-top: 46px;
+}
+.apps-service-phone {
+    padding-top: 29px;
+}
+.apps-service-commercial    {
+    padding-top: 31px;
+}
+.apps-service-mod   {
+    border-right: 1px solid #a5a5a5;
+    padding-top: 44px;
+
+}
+.apps-h3    {
+    color: #2190c1;
+    font-size: 20px;
+    font-family: bree_serifregular, sans-serif;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.apps-p {
+    font-family: ubunturegular, sans-serif;
+    font-size: 13px;
+    color: #5c626c;
+    padding-bottom: 30px;
+}
+.team   {
+    background: #f4f4f4;
+    background-size: cover;
+    height: 880px;
+}
+.our-team   {
+    color: #2190c1;
+    font-size: 50px;
+    font-family: bebas_neue_regularregular, sans-serif;
+    padding-top: 50px;
+    text-align: center;
+}
+.members    {
+    height: 280px;
+    width: 380px;
+    display: inline-block;
+    border: 1px solid #cccccc;
+    margin-right: 70px;
+    margin-top: 55px;
+    margin-left: 35px;
+    background: white;
+    overflow: hidden;
+}
+.members-mod    {
+    margin-right: 0;
+    margin-left: 0;
+}
+.members-shadow {
+    box-shadow: -15px -15px 0px 0px #d3d3d3;
+}
+.members-shadow-mod {
+    box-shadow: 15px -15px 0px 0px #d3d3d3;
+}
+.avatar-img {
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.avatar-h4  {
+    font-size: 17px;
+    font-family: bree_serifregular, sans-serif;
+    color: #666666;
+    text-align: center;
+    padding-top: 20px;
+}
+.avatar-h3  {
+    font-size: 32px;
+    font-family: bebas_neue_regularregular, sans-serif;
+    color: #2190c1;
+    text-align: center;
+}
+.avatar-href    {
+    text-decoration: none;
+    color: #b1b3b6;
+    margin-left: 50px;
+    font-size: 13px;
+}
+.square {
+    width: 25px;
+    height: 25px;
+    border-radius: 3px;
+}
+.colors {
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.color-1  {
+    background: #00a1e4;
+}
+.color-2    {
+    background: #29aecb;
+}
+.color-3    {
+    background: #0481d9;
+}
+.color-4    {
+    background: #f7941d;
+}
+.avatar::after  {
+    content: "";
+    display: table;
+    clear: both;
+}
+.members-p  {
+    padding-top: 30px;
+    padding-left: 15px;
+    color: #515862;
+    font-size: 12px;
+    font-family: ubunturegular, sans-serif;
+}
+
