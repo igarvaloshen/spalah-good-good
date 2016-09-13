@@ -1,0 +1,110 @@
+.night-city {
+    background-image: url("../img/night-city-contacts.jpg");
+    height: 295px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.night-city-h1  {
+    font-family: bebas_neue_regularregular, sans-serif;
+    font-size: 80px;
+    color: #cccece;
+    text-align: center;
+    padding-top: 110px;
+}
+.projects   {
+    background: #f4f4f4;
+    background-size: cover;
+
+}
+.projects-wrap  {
+    margin: 0 auto;
+    border-bottom: 1px solid #b3d5e4;
+}
+.projects-h3    {
+    color: #2190c1;
+    font-size: 80px;
+    font-family: bebas_neue_regularregular, sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 35px;
+}
+.pf-menu   {
+    background: #f4f4f4;
+    background-size: cover;
+}
+.nav-wrap   {
+    width: 1020px;
+    margin: 0 auto;
+    border-left: 1px solid #b3d5e4;
+    border-right: 1px solid #b3d5e4;
+    height: 45px;
+}
+.nav-wrap a {
+    text-decoration: none;
+}
+#menu {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-family: Georgia;
+}
+#menu li {
+    list-style: none;
+    float: left;
+    height: 33px;
+    padding: 0;
+    margin: 0;
+    width: 150px;
+    text-align: center;
+    background: #f4f4f4;
+    position: relative;
+    padding-top: 12px;
+
+}
+#menu li ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 150px;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 45px;
+}
+#menu li ul li {
+    float: none;
+    height: 33px;
+    margin: 0;
+    width: 150px;
+    text-align: center;
+    background: #f98561;
+}
+#menu li a {
+    display: block;
+    width: 150px;
+    height: 44px;
+    color: #515862;
+    text-decoration: none;
+    font-family: ubuntu_condensedregular, sans-serif;
+    font-size: 16px;
+}
+#menu li a:hover {
+    color: #f9f5d2;
+}
+#menu li:hover ul, #menu li.jshover ul {
+    display: block;
+}
+#menu li:hover, #menu li.jshover {
+    background: #2190c1;
+}
+.a-href::after  {
+    content: '';
+    position: absolute;
+    border: 1px solid #c3c4c4;
+    height: 60%;
+    top: 7px;
+    left: 149px;
+}
+.a-href-mod::after  {
+    display: none;
+}
