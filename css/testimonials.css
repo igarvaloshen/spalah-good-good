@@ -30,7 +30,10 @@
 .icon-2:before {
     content: "\e901";
 }
-
+.testimonials   {
+    background: #f4f4f4;
+    background-size: cover;
+}
 .testimon-icon  {
     color: #6b6b6b;
     font-size: 70px;
