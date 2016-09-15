@@ -150,6 +150,7 @@
     position: relative;
     display: inline-block;
     transition: 0.2s;
+    outline: none;
 }
 .gallery-href::before    {
     content: url("../img/camera-icon.png");

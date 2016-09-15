@@ -45,6 +45,7 @@
 
 .tabs-href  {
     text-decoration: none;
+    outline: none;
 }
 .tabs-li    {
     display: inline-block;

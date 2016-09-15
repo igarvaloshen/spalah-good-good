@@ -141,6 +141,7 @@ header  {
 .gallery-href   {
     text-decoration: none;
     position: relative;
+    outline: none;
 }
 .gallery-href::before    {
     content: url("../img/camera-icon.png");
