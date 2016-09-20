@@ -41,6 +41,7 @@
     height: 70px;
     background: #c1c1c1;
     border-radius: 35px;
+    transition: 0.2s;
 }
 
 .tabs-href  {
@@ -58,6 +59,7 @@
     height: 80px;
     border-bottom: 6px solid #c1c1c1;
     position: relative;
+    transition: 0.2s;
 }
 .border-bottom:hover   {
     border-bottom: 6px solid #f88560;
@@ -72,6 +74,7 @@
     bottom: 0px;
     border: 6px solid transparent;
     border-bottom: 9px solid #c1c1c1;
+    transition: 0.2s;
 }
 .border-bottom:hover:before  {
     border-bottom: 9px solid #f88560;

@@ -130,44 +130,66 @@ header  {
 }
 .gallery    {
     margin-bottom: 20px;
+    font-size: 0;
 }
 .galleryItem {
     display: inline-block;
-    margin-right: 38px;
-    background: white;
-    height: 220px;
-    width: 282px;
+    margin-right: 42px;
+    background: #bebebe;
+    height: 200px;
+    width: 262px;
+    border: 10px solid white;
+    position: relative;
 }
 .gallery-href   {
     text-decoration: none;
-    position: relative;
     outline: none;
 }
-.gallery-href::before    {
+.galleryItem::before    {
     content: url("../img/camera-icon.png");
     position: absolute;
-    left: 42%;
-    top: -687%;
-}
-.gallery-href::after {
-    content: url("../img/pf-details.png");
-    position: absolute;
-    top: -697%;
-    left: 23%;
-    display: none;
+    left: 50%;
+    margin-left: -22px;
+    top: 50%;
+    margin-top: -16px;
+    opacity: 1;
+    transition: 0.3s;
 }
 .galleryItem-mod    {
     margin-right: 0px;
-    float: right;
 }
-.galleryItem:hover  .gallery-href::before {
-    display: none;
+.galleryItem:hover::before {
+    opacity: 0;
 }
-.galleryItem:hover  .gallery-href::after {
-    display: block;
+.galleryItem:hover .pf-hover-block   {
+    opacity: 1;
 }
-.pf-img {
-    margin: 10px;
+.pf-hover-block {
+    border: 1px solid white;
+    display: inline-block;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    margin-left: -62px;
+    top: 50%;
+    margin-top: -15px;
+    opacity: 0;
+    transition: 0.3s;
+}
+.details    {
+    color: white;
+    font-size: 17px;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 10px;
+    font-family: bree_serifregular, sans-serif;
+    padding-top: 2px;
+    padding-right: 15px;
+}
+.details-img    {
+    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-left: 10px;
 }
 .pf-content {
     width: 280px;

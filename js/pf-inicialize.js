@@ -17,3 +17,9 @@ $(document).ready(function() {
         }
     });
 });
+$('.galleryItem').magnificPopup({
+    type: 'image',
+    gallery:{
+        enabled:true
+    }
+});
