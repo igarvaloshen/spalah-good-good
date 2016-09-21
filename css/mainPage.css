@@ -48,7 +48,7 @@ header  {
 .our-services::before  {
     content: "Our Services";
     background: #2190c1;
-    height: 37px;
+    height: 27px;
     width: 145px;
     text-align: center;
     color: white;
