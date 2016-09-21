@@ -133,45 +133,80 @@
 .gallery    {
     padding-bottom: 70px;
     padding-top: 35px;
+    font-size: 0;
 }
 .galleryItem {
     display: inline-block;
-    margin-right: 38px;
-    background: white;
-    height: 220px;
-    width: 282px;
+    margin-right: 42px;
+    background: #bebebe;
+    height: 200px;
+    width: 262px;
+    border: 10px solid white;
+    position: relative;
 }
 .galleryItem-mod    {
     margin-right: 0px;
-    float: right;
 }
 .gallery-href   {
     text-decoration: none;
-    position: relative;
-    display: inline-block;
-    transition: 0.2s;
     outline: none;
 }
-.gallery-href::before    {
+.galleryItem::before    {
     content: url("../img/camera-icon.png");
     position: absolute;
-    left: 41%;
-    top: 41%;
-    transition: 0.2s;
+    left: 50%;
+    margin-left: -22px;
+    top: 50%;
+    margin-top: -16px;
+    opacity: 1;
+    transition: 0.3s;
 }
-.gallery-href::after {
-    content: url("../img/pf-details.png");
-    position: absolute;
-    top: 40%;
-    left: 25%;
-    display: none;
-    transition: 0.2s;
+.galleryItem:hover::before {
+    opacity: 0;
 }
-.gallery-href:hover:before {
-    display: none;
+.galleryItem:hover .pf-hover-block-all   {
+    opacity: 1;
 }
-.gallery-href:hover:after {
-    display: block;
+.pf-hover-block {
+    border: 1px solid white;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 23px;
+}
+.pf-hover-block-all {
+    text-align: center;
+    opacity: 0;
+    transition: 0.3s;
+}
+.details    {
+    color: white;
+    font-size: 17px;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 10px;
+    font-family: bree_serifregular, sans-serif;
+    padding-top: 2px;
+    padding-right: 15px;
+}
+.details-img    {
+    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-left: 10px;
+}
+.pf-hover-block-without-border  {
+    text-align: center;
+    padding-top: 30px;
+}
+.details-h5-without-border {
+    font-size: 20px;
+    font-family: bree_serifregular, sans-serif;
+    color: white;
+    padding-bottom: 20px;
+}
+.details-p-without-border   {
+    color: white;
+    font-family: ubunturegular, sans-serif;
+    font-size: 11px;
 }
 .pf-img {
     margin: 10px;
