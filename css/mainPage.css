@@ -17,14 +17,14 @@ header  {
 .slider-h1  {
     font-size: 61px;
     color: #cccece;
-    padding-top: 110px;
-    padding-bottom: 30px;
+    padding-top: 102px;
+    padding-bottom: 13px;
     font-family: bebas_neue_regularregular, sans-serif;
 }
 .slider-p   {
     font-size: 14px;
     color: #cccece;
-    padding-bottom: 50px;
+    padding-bottom: 54px;
     margin-left: 155px;
     margin-right: 155px;
     font-family: ubunturegular, sans-serif;
@@ -35,10 +35,10 @@ header  {
     color: white;
     background: #f98561;
     font-size: 25px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
     border-radius: 5px;
     font-family: ubuntu_condensedregular, sans-serif;
 }
@@ -48,8 +48,8 @@ header  {
 .our-services::before  {
     content: "Our Services";
     background: #2190c1;
-    height: 25px;
-    width: 120px;
+    height: 30px;
+    width: 145px;
     text-align: center;
     color: white;
     position: absolute;
@@ -87,7 +87,7 @@ header  {
     float: right;
 }
 .service-img    {
-    margin-bottom: 28px;
+    margin-bottom: 18px;
 }
 .service-h3 {
     font-size: 17px;
@@ -112,7 +112,7 @@ header  {
     height: 518px;
 }
 .portfolio-h3   {
-    font-size: 30px;
+    font-size: 28px;
     color: #f98561;
     display: inline-block;
     padding-top: 50px;
@@ -123,7 +123,7 @@ header  {
     background: #2190c1;
     color: white;
     float: right;
-    margin-top: 50px;
+    margin-top: 33px;
     border: 0px;
     padding: 8px;
     border-radius: 5px;
@@ -224,27 +224,30 @@ header  {
     border-bottom: 1px solid #d9d9d9;
 }
 .offer-h2   {
-    padding-top: 40px;
+    padding-top: 29px;
     text-transform: uppercase;
     font-size: 40px;
     text-align: center;
     color: #2190c1;
-    margin-bottom: 25px;
+    margin-bottom: 16px;
     font-family: bebas_neue_regularregular, sans-serif;
+}
+.ww-offer-a {
+    font-size: 13px;
 }
 .under-h2-p {
     font-size: 12px;
-    margin-left: 180px;
-    margin-right: 180px;
+    margin-left: 88px;
+    margin-right: 88px;
     text-align: center;
-    padding-bottom: 45px;
+    padding-bottom: 32px;
     font-family: ubunturegular, sans-serif;
 }
 .ww-offer    {
     display: inline-block;
-    width: 180px;
+    width: 190px;
     vertical-align: top;
-    padding-right: 61px;
+    padding-right: 46px;
     padding-bottom: 30px;
 }
 .ww-offer-mod   {
@@ -269,8 +272,12 @@ header  {
     color: white;
     border-radius: 2px;
     font-size: 11px;
-    padding: 2px;
     margin-top: 10px;
     font-family: ubunturegular, sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+
 }
 

@@ -61,11 +61,13 @@ footer  {
     padding-bottom: 12px;
 }
 .mail-input {
-    width: 244px;
+    width: 234px;
     height: 28px;
     border: 0px;
     border-radius: 3px;
     font-family: ubunturegular, sans-serif;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 .mail-button    {
     color: #f0f8fb;

@@ -84,16 +84,18 @@
     text-align: center;
     color: #2190c1;
     text-transform: uppercase;
-    padding-top: 30px;
-    padding-bottom: 35px;
+    padding-top: 35px;
+    padding-bottom: 20px;
     font-family: bebasregular, sans-serif;
 }
 .testimonials-p {
     font-size: 27px;
     text-align: center;
-    padding-bottom: 65px;
+    padding-bottom: 50px;
     font-family: bree_serifregular, sans-serif;
     color: #515862;
+    margin-left: 55px;
+    margin-right: 55px;
 }
 .testimonials-comment   {
     font-size: 14px;

@@ -40,6 +40,7 @@ header  {
     display: inline-block;
     padding-top: 32px;
     vertical-align: middle;
+    padding-left: 95px;
 }
 li  {
     display: inline-block;
@@ -48,14 +49,17 @@ li  {
     text-decoration: none;
     padding-top: 36px;
     padding-bottom: 15px;
-    padding-left: 18px;
-    padding-right: 18px;
+    padding-left: 17px;
+    padding-right: 17px;
     position: relative;
     color: #515862;
     font-family: ubunturegular, sans-serif;
     font-size: 14px;
     margin-right: 15px;
     transition: 0.2s;
+}
+.menu-contacts  {
+    margin-right: 0px;
 }
 .menu-href:hover    {
     background: #23afc8;
@@ -78,8 +82,8 @@ li  {
     color: #ffffff;
     text-decoration: none;
     background: #f98561;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
     padding-top: 3px;
     padding-bottom: 3px;
     border-radius: 3px;
