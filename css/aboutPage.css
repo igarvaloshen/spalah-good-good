@@ -27,12 +27,14 @@
     font-family: ubuntubold, sans-serif;
     font-size: 13px;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 14px;
     padding-left: 10px;
     padding-right: 10px;
+    line-height: 1.5;
 }
 .waw-p-mod  {
     font-family: ubunturegular, sans-serif;
+    padding-top: 25px;
 }
 .waw-h2 {
     text-transform: uppercase;
